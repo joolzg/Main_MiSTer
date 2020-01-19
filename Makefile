@@ -2,7 +2,7 @@
 SHELL = /bin/bash -o pipefail
 
 # using gcc version 5.4.1 20161213 (Linaro GCC 5.4-2017.01-rc2)
-BASE    = arm-linux-gnueabihf
+BASE    ?= arm-linux-gnueabihf
 
 CC      = $(BASE)-gcc
 LD      = $(BASE)-ld
